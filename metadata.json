@@ -1,0 +1,5 @@
+{
+  "name": "PromptCanvas",
+  "description": "Generate better prompts for images, marketing, code, and writing.",
+  "requestFramePermissions": []
+}

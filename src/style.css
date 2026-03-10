@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Arial;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: white;
+}
+
+.app-container {
+  text-align: center;
+  padding: 40px;
+}
+
+.app-header h1 {
+  font-size: 48px;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+
+.tagline {
+  color: #94a3b8;
+  font-size: 16px;
+}
+
+.generate-button {
+  margin-top: 30px;
+  padding: 14px 28px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background: linear-gradient(135deg,#6366f1,#22c55e);
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(99,102,241,0.6);
+  transition: transform .15s ease;
+}
+
+.generate-button:hover {
+  transform: scale(1.05);
+}
